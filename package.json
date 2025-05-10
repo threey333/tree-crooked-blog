@@ -1,7 +1,8 @@
 {
   "name": "nuxt-app",
-  "private": true,
   "type": "module",
+  "private": true,
+  "packageManager": "pnpm@9.15.2+sha512.93e57b0126f0df74ce6bff29680394c0ba54ec47246b9cf321f0121d8d9bb03f750a705f24edc3c1180853afd7c2c3b94196d0a3d53d3e069d9e2793ef11f321",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -10,9 +11,19 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@unocss/reset": "^65.4.3",
+    "@vueuse/core": "^12.7.0",
+    "@vueuse/nuxt": "^12.7.0",
     "nuxt": "^3.15.4",
+    "overlayscrollbars": "^2.11.1",
+    "overlayscrollbars-vue": "^0.5.9",
     "vue": "latest",
     "vue-router": "latest"
   },
-  "packageManager": "pnpm@9.15.2+sha512.93e57b0126f0df74ce6bff29680394c0ba54ec47246b9cf321f0121d8d9bb03f750a705f24edc3c1180853afd7c2c3b94196d0a3d53d3e069d9e2793ef11f321"
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.2.0",
+    "@unocss/nuxt": "^65.4.3",
+    "eslint": "^9.20.1",
+    "unocss": "^65.4.3"
+  }
 }
